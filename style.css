@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    height: 110vh;
+    background-image: url("https://i.ibb.co/HtfMdJS/bg.webp");
+}
+header{
+    padding: 20px;
+    color:white;
+    position: sticky;
+    top: 0;
+
+}
+.logobox{
+    display: inline-block;
+    width: 120px;
+    cursor: pointer;
+}
+.navbar{
+    width: 600px;
+    position: absolute;
+    right: 20px;
+    display: inline-block;
+}
+.navbar>a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+
+}
+.navbar>a:hover{
+    color: salmon;
+
+}
+.heading{
+    color: salmon;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 60px;
+    left: 70px;
+    width: 500px;
+}
+.heading+h3{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    position: relative;
+    left: 90px;
+    width: 500px;
+}
+.heading+h3+p{
+    color: white;
+    position: relative;
+    left: 80px;
+    width: 400px;
+    top: 20px;
+
+}
+.btn{
+    width: 150px;
+    padding: 20px;
+    border: 2px solid salmon;
+    background-color: salmon;
+    color: black;
+    position: relative;
+    left: 80px;
+    top: 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+footer{
+    color: white;
+    position: fixed;
+    bottom: 0;
+}
